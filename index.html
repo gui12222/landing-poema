@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gui.poemas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #141316 0%, #1f1c22 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            color: #f5efe8;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 420px;
+        }
+
+        .card {
+            background: rgba(28, 24, 30, 0.9);
+            border-radius: 32px;
+            overflow: hidden;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+            border: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .image-area {
+            height: 240px;
+            background-image: url('photo_5854791047752387979_y.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content {
+            padding: 32px 24px 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 1.9rem;
+            line-height: 1.2;
+            margin-bottom: 18px;
+            font-weight: 600;
+        }
+
+        .description {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            opacity: 0.85;
+            margin-bottom: 34px;
+        }
+
+        .btn {
+            display: inline-block;
+            width: 100%;
+            padding: 18px;
+            border-radius: 50px;
+            background: #d4a373;
+            color: #111;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: 0.25s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.03);
+            background: #e6b583;
+        }
+
+        .footer {
+            margin-top: 18px;
+            font-size: 0.75rem;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image-area"></div>
+            <div class="content">
+                <h1>E já sinto falta</h1>
+                <p class="description">
+                    Um poema sobre ausência, memória e o que fica quando alguém parte.<br>
+                    Assista e sinta.
+                </p>
+                <a href="https://www.instagram.com/p/DVbJDXdDKnw/" class="btn" target="_blank">
+                    Assistir agora
+                </a>
+                <div class="footer">
+                    @gui.poemas • Instagram
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
